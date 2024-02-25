@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background: linear-gradient(180deg, black, blue); 
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 33%;
+    width: 400px;
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.logo {
+    margin-bottom: 30px; 
+}
+
+.details {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.details input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: auto; 
+    margin-top: 10px;
+    padding: 0 20px;
+    align-self: flex-start; 
+    display: flex;
+    justify-content: flex-start;
+}
+
